@@ -1,0 +1,106 @@
+* {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+
+.headerH1 {
+    font-family: "Bungee Spice", sans-serif;
+    color: rgb(92, 13, 181);
+    text-align: center;
+
+}
+
+.headerP1 {
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.headerH2 {
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF"15,
+        "SHLN"50;
+    color: #220876;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+.headerP2 {
+    font-family: sans-serif;
+    font-style: normal;
+    padding-bottom: 8px;
+    margin-left: 15px;
+}
+
+p {
+    font-style: italic;
+    text-align: left;
+    font-size: 20px;
+}
+
+.ulList {
+    list-style-type: upper-roman;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    color: #680b6a;
+}
+
+
+li {
+    padding-bottom: 8px;
+    font-style: italic;
+}
+
+.link {
+    padding-bottom: 15px;
+    margin-left: 20px;
+    color: #5eab05;
+    text-decoration: none;
+}
+
+.text {
+    font-style: normal;
+    font-size: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.email {
+    font-style: normal;
+    font-size: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.picture {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    padding-left: 20px;
+}
+
+picture:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+.link-selector {
+    color: rgb(35, 53, 119);
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+
+.link-selector:hover {
+    color: rgb(240, 225, 19);
+}
