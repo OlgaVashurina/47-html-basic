@@ -1,10 +1,38 @@
+li>span {
+    font-weight: grid;
+}
+
+
+
 .containerGrid {
     display: grid;
     /* 1 фрейм = 1 кусочку, если в схеме их несколько, фреймы равны между собой */
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
     width: 100%;
 }
 
 .gridItem {
+    padding: 10px;
     background-color: rgb(120, 120, 241);
+}
+
+.relativeItem {
+    background-color: #ef2c84;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+
+.containerGridMinMax {
+    display: grid;
+    gap: 5px;
+    /* 100 пх макс размер, контейнер будут растягиваьтбся поуа не получиться поставить 100 пх
+    примерно они ширина - 270 */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 80px;
+}
+
+.gridItemAdaptive {
+    background-color: #d5a23c;
 }
