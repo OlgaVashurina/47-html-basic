@@ -1,0 +1,10 @@
+.containerGrid {
+    display: grid;
+    /* 1 фрейм = 1 кусочку, если в схеме их несколько, фреймы равны между собой */
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+}
+
+.gridItem {
+    background-color: rgb(120, 120, 241);
+}
