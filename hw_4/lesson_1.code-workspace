@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../lesson_1"
+		},
+		{
+			"path": "../lesson_2"
+		},
+		{
+			"path": "../lesson_3"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lesson_3"
+	}
+}

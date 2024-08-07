@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.poster {
+    height: 300px;
+}
+
+.rating {
+    padding: 4px;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    color: aliceblue;
+    width: fit-content;
+}
+
+.rating_green {
+    background-color: green;
+}
+
+
+.rating_red {
+    background-color: red;
+}
+
+.tickets {
+    bottom: 12px;
+    right: 11px;
+    position: absolute;
+    width: fit-content;
+    background-color: #d76219;
+    color: aliceblue;
+    padding: 4px;
+}
+/* .sticky {
+    position: sticky;
+    top: 236px;
+    margin: 0;
+    background-color: rgb(203, 223, 22);
+} */
