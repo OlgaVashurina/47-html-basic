@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+}
+
+body {
+    width: 1200px;
+    margin: 0;
+}
+
+.h1 {
+    padding-top: 45px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.head {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    font-family: "Arial", sans-serif;
+}
+
+.info {
+    margin-right: auto;
+}
+
+.website {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.web-info {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.navigation {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servises {
+    margin-left: 28px;
+    display: flex;
+    gap: 40px;
+}
+
+.header-row {
+    width: 100%;
+    position: relative;
+    background-color: #545454;
+    height: 9px;
+}
+
+.button-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+}
+
+.fa-solid {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    color: #000;
+}
+
+/* Стили для основного контента */
+
+main {
+    margin: 20px;
+    font-family: "Arial", sans-serif;
+}
+
+/* Секция "Sehenswürdigkeiten" и другие */
+.features,
+.berlin-info,
+.tours,
+.insider-tips,
+.explore-berlin {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.feature,
+.info-box,
+.tour-box,
+.insider-box,
+.explore-box {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.feature:last-child,
+.info-box:last-child,
+.tour-box:last-child,
+.insider-box:last-child,
+.explore-box:last-child {
+    margin-right: 0;
+}
+
+.feature img,
+.info-box img,
+.tour-box img,
+.insider-box img,
+.explore-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.feature h3,
+.info-box h3,
+.tour-box h3,
+.insider-box h3,
+.explore-box h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0 10px;
+}
+
+.feature p,
+.info-box p,
+.tour-box p,
+.insider-box p,
+.explore-box p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+    margin: 10px 0;
+    position: relative;
+}
+
+.credits {
+    font-size: 12px;
+    color: #999;
+    display: block;
+    margin-top: 5px;
+}
+
+.more-link {
+    color: #007BFF;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.more-link:hover {
+    text-decoration: underline;
+}
+
+.small-arrow {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+/* Стили для красного квадрата с белой стрелкой */
+.image-container {
+    position: relative;
+}
+
+.arrow-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-family: "Arial", sans-serif;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Стили для нижнего блока с категориями */
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    margin-bottom: 40px;
+}
+
+.category {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.category:last-child {
+    margin-right: 0;
+}
+
+.category h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category ul li {
+    margin-bottom: 8px;
+}
+
+.category ul li a {
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+}
+
+.category ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: "Arial", sans-serif;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #444;
+    color: #fff;
+    padding: 40px 0;
+    font-family: "Arial", sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.footer-logo img {
+    max-width: 80px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-column h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    font-size: 14px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-info {
+    text-align: left;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+    margin-left: 20px;
+}
+
+.to-top {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.top-link {
+    font-size: 14px;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.top-link img {
+    margin-left: 5px;
+    width: 14px;
+    height: 14px;
+}
