@@ -93,14 +93,12 @@ a {
     color: #000;
 }
 
-/* Стили для основного контента */
 
 main {
     margin: 20px;
     font-family: "Arial", sans-serif;
 }
 
-/* Секция "Sehenswürdigkeiten" и другие */
 .features,
 .berlin-info,
 .tours,
@@ -186,7 +184,6 @@ main {
     margin-left: 5px;
 }
 
-/* Стили для красного квадрата с белой стрелкой */
 .image-container {
     position: relative;
 }
@@ -204,7 +201,7 @@ main {
     border-radius: 3px;
 }
 
-/* Стили для футера */
+
 footer {
     background-color: #333;
     color: #fff;
@@ -233,8 +230,6 @@ footer {
     font-size: 14px;
     margin: 0;
 }
-
-/* Стили для нижнего блока с категориями */
 
 .categories {
     display: flex;
@@ -279,7 +274,7 @@ footer {
     text-decoration: underline;
 }
 
-/* Стили для футера */
+
 footer {
     background-color: #333;
     color: #fff;
@@ -314,7 +309,6 @@ footer {
     margin: 0;
 }
 
-/* Стили для футера */
 footer {
     background-color: #444;
     color: #fff;
