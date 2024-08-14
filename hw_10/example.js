@@ -4,8 +4,8 @@ console.log(myNumber);
 let myString = "Hello, " + "world" + "!" + 2024;
 console.log(myString);
 
-let isHuman = 42 == "42";
-console.log(isHuman); // выведет true
+let isNumnbr1 = 42 == "42";
+console.log(isNumnbr1); 
 
-let myNumber1 = parseInt("123smth");
-console.log(myNumber1); // выведет 123
+let myNumber2 = parseInt("123smth");
+console.log(myNumber2); 
