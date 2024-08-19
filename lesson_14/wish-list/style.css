@@ -1,0 +1,11 @@
+body {
+    font-family: 'Couroer New', 'Courier', monospace;
+}
+
+form>button {
+    border: none;
+    background-color: #a927c9;
+    color: aliceblue;
+    padding: 3px 8px;
+    border-radius: 3px;
+}
