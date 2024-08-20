@@ -1,5 +1,5 @@
 body {
-    font-family: 'Couroer New', 'Courier', 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace
 }
 
 .counter-container {
@@ -10,7 +10,6 @@ body {
     font-size: 23px;
     margin: 0px 4px;
     font-weight: bold;
-
 }
 
 .counter-container>button {
@@ -19,10 +18,10 @@ body {
     border-radius: 5px;
     height: 26px;
     width: 35px;
-    color: aliceblue;
-    background-color: #29af90;
+    color: white;
+    background-color: rgb(83, 93, 172);
 }
 
 .counter-container>button:hover {
-    background-color: #8a17a1;
+    background-color: rgb(113, 123, 199);
 }
